@@ -1,0 +1,12 @@
+.gutter-example .ant-row > div {
+  background: transparent;
+  border: 0;
+}
+.gutter-title {
+  height: 38px;
+  line-height: 38px;
+  text-align: right;
+}
+.gutter-box {
+  padding: 5px 20px;
+}

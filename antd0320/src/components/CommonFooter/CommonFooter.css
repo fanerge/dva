@@ -1,0 +1,15 @@
+.main{
+  height: 70px;
+  background: #ccc;
+}
+.main footer{
+  text-align: center;
+}
+.main h3{
+  height: 30px;
+  line-height: 30px;
+}
+.main p{
+  height: 30px;
+  line-height: 30px;
+}
