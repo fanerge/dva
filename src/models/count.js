@@ -8,6 +8,11 @@ function sleep(numberMillis) {
     }
 }
 
+function delay(timeout){
+  return new Promise(resolve => {
+    setTimeout(resolve, timeout);
+  });
+}
 
 export default {
   namespace: 'count',
@@ -39,7 +44,8 @@ export default {
        });
        console.log(11)
        // 同步模拟
-       yield sleep(1000);
+       // yield sleep(1000);
+	yield call(delay, 1000);
        console.log(22)
        yield put({
         type: 'minus',
